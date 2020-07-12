@@ -1,0 +1,180 @@
+body {
+  text-align: center;
+}
+
+/* SECTION */
+section {
+  display: block;
+}
+
+.gif-section{
+  background:  url(https://media.giphy.com/media/69xrRywFNy9BZAwJhz/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  width: 100%
+
+}
+
+.search-icon
+ {
+    position: absolute;
+    width: auto;
+    bottom: -35px;
+    right: -10px;
+    font-size:100%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/*NAVIGATION BAR*/
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: grey;
+  min-width: 10px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+  margin-top: 30px;
+  background-color: #fff;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.testimonial-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.color{
+  color:#000;
+  font-style: bold;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+
+/* Mentors Section */
+
+#mentors {
+  padding: 100px;
+}
+
+.mentors-title {
+  text-align: left;
+  font-size: 24px;
+}
+
+.mentors-text {
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.mentors-col {
+  padding: 3% 2%;
+}
+
+.title{
+  margin-left: 8px;
+  color: #8f8f8f;
+}
+
+.icon{
+  padding: 0;
+  height: 60px;
+  width: 60px;
+}
+
+/* Footer */
+.footer{
+  background-color: #1d3557;
+}
+
+.follow{
+  text-align: left;
+}
+
+.contact{
+  text-align: left;
+  margin-top: 30px;
+}
+.contact-content{
+  color: #fff;
+  font-size: 15px;
+}
+.callnow{
+  margin-bottom: 0;
+}
+
+#about{
+  color: #fff;
+}
+
+
+/* MEDIA SECTION */
+@media only screen and  (max-width: 1020px) {
+  #title {
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
